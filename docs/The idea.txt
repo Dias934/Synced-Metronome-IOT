@@ -1,0 +1,25 @@
+Synced Metronome IOT
+
+- 2 Modes: Transmitter & Receiver;
+
+- 1 Android App;
+
+- Transmitter:
+	> Communicate with Android App;
+	> Receives the rythm;
+	> Receives more information about the rythm like vibration, lights, sound;
+	> Sends to App the online devices and their info;
+	> Forwards App rythm and information to Receivers;
+	> Search for devices;
+	
+- Receiver:
+	> Receives rythm from transmitter;
+	> Sends to Transmitter its information like battery, etc;
+	
+- Android App:
+	> Connect to one Transmitter via BLE;
+	> Request to search for Receivers;
+	> Sends rythm to Transmitter;
+	> Sends more rythm information;
+	> Send Start and Stop Rythm;
+	
